@@ -11,18 +11,16 @@
 
 int main(void)
 {
-	char ch = 'a';
-	char chu = "A";
+	char ch;
 
-	while (ch <= 'z')
-{
-	printf("%c", ch);
-	ch++;
-}
-	while (chu <= "Z")
-{
-	printf("%c", chu);
-}
+	for (ch = 'a'; ch <= 'z'; ch++)
+	{
+		printf("%c", ch);
+	}
+	for (ch = 'A'; ch <= 'Z'; ch++)
+	{
+		printf("%c", ch);
+	}
 	printf("\n");
 	return (0);
 }
