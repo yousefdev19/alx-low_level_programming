@@ -15,7 +15,6 @@
 {
 	if (ch == 101 || ch == 113)
 	{
-		ch++;
 		continue;
 	}
 	putchar(ch);
