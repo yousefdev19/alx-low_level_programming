@@ -11,17 +11,12 @@
 
 	int main(void)
 {
-	int ch;
+	int n;
 
-	for (ch = 97; ch <= 122; ch++)
-{
-	if (ch == 101 || ch == 113)
+	for (n = 0; n <= 9; n++)
 	{
-		continue;
+		printf("%d", n);
 	}
-	putchar(ch);
-}
-	putchar('\n');
+	printf("\n");
 	return (0);
-
 }
