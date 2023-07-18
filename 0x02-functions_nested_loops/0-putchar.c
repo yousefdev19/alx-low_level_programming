@@ -13,6 +13,6 @@
 {
 	char val[] = "_putchar";
 
-	printf("%s \n", val);
+	printf("%s\n", val);
 	return (0);
 }
