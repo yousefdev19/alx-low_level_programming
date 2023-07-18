@@ -11,6 +11,8 @@
 
 	int main(void)
 {
-	printf("_putchar \n");
+	char val[] = "_putchar";
+
+	printf("%s \n", val);
 	return (0);
 }
