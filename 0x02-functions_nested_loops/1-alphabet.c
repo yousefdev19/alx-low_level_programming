@@ -9,12 +9,14 @@
  * Return: Always 0 (Success)
  */
 
-int main () {
-   char ch;
+int main(void)
+{
+	char ch;
 
-   for(ch = 'a' ; ch <= 'z' ; ch++) {
-      putchar(ch);
-   }
-   putchar(10);
-   return(0);
+	for (ch = 'a'; ch <= 'z'; ch++)
+	{
+	putchar(ch);
+	}
+	putchar(10);
+	return (0);
 }
